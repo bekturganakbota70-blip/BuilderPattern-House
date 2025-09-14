@@ -1,0 +1,16 @@
+# Report for Assignment 1 – Builder Pattern
+
+## Product: House
+
+I implemented the Builder Pattern using a `House` class.  
+The Builder allows step-by-step construction of different houses (wooden, stone, etc.).
+
+## Clean Code Principles
+1. Clear method names (`setWalls`, `setRoof`).
+2. Small methods, each doing one thing.
+3. Encapsulation: private constructor, only builder can create objects.
+4. Readable structure and consistent formatting.
+
+## Example Output
+House with wooden walls, tile roof, wood floor, Garage: true, Garden: false  
+House with stone walls, concrete roof, marble floor, Garage: false, Garden: true
