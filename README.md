@@ -1,8 +1,7 @@
 # BuilderPattern-House
 package Ass_1;
 
-
-public class House {
+//public class House {
     private String walls;
     private String roof;
     private String floor;
